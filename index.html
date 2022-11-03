@@ -4,30 +4,37 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Numbers Starter</title>
-    <link rel="stylesheet" href="./style.css" />
+    <title>filters</title>
   </head>
+  <!--stylesheet-->
+  <link rel="stylesheet" href="styles.css" />
+  <!--font awesome-->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+  />
   <body>
-    <section>
-      <!-- single number -->
-      <article>
-        <span class="number" data-value="500">0</span>
-        <p>Succeeded Projects</p>
-      </article>
-      <!-- end of single number -->
-      <!-- single number -->
-      <article>
-        <span class="number" data-value="17140">0</span>
-        <p>Working Hours Spent</p>
-      </article>
-      <!-- end of single number -->
-      <!-- single number -->
-      <article>
-        <span class="number" data-value="1500">0</span>
-        <p>Happy Clients</p>
-      </article>
-      <!-- end of single number -->
-    </section>
-    <script src="./new.js"></script>
+    <nav class="nav-bar">
+      <section>
+        <input class="input" type="text" placeholder="search..." /><i
+          class="fa-brands fa-searchengin"
+        ></i>
+        <h3>Company</h3>
+        <div class="buttons"></div>
+      </section>
+    </nav>
+    <main class="main">
+      <section class="grid">
+        <article class="article">
+          <div class="frame"><img src="" alt="image" /></div>
+          <p class="title"></p>
+          <p class="price"></p>
+        </article>
+      </section>
+    </main>
+    <!--our data source-->
+    <script src="products.js"></script>
+    <!--javascript-->
+    <script src="app.js"></script>
   </body>
 </html>
