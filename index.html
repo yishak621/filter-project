@@ -4,37 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>filters</title>
+    <title>Filters</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
-  <!--stylesheet-->
-  <link rel="stylesheet" href="styles.css" />
-  <!--font awesome-->
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-  />
   <body>
-    <nav class="nav-bar">
-      <section>
-        <input class="input" type="text" placeholder="search..." /><i
-          class="fa-brands fa-searchengin"
-        ></i>
-        <h3>Company</h3>
-        <div class="buttons"></div>
-      </section>
-    </nav>
-    <main class="main">
-      <section class="grid">
-        <article class="article">
-          <div class="frame"><img src="" alt="image" /></div>
-          <p class="title"></p>
-          <p class="price"></p>
+    <!-- products -->
+    <section class="products">
+      <!-- filters -->
+      <div class="filters-container">
+        <!-- search -->
+        <form class="input-form">
+          <input type="text" class="search-input" placeholder="search..." />
+        </form>
+        <!-- categories -->
+        <h5>Company</h5>
+        <article class="companies">
+          <button class="company-btn"></button>
         </article>
-      </section>
-    </main>
-    <!--our data source-->
-    <script src="products.js"></script>
-    <!--javascript-->
-    <script src="app.js"></script>
+      </div>
+      <!-- products -->
+      <div class="products-container">
+        <!-- single product -->
+      </div>
+    </section>
+    <script src="./products.js"></script>
+    <script src="./app.js"></script>
   </body>
 </html>
